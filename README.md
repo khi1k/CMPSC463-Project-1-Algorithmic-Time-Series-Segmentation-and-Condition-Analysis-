@@ -1,0 +1,1 @@
+# CMPSC463-Project-1-Algorithmic-Time-Series-Segmentation-and-Condition-Analysis-
