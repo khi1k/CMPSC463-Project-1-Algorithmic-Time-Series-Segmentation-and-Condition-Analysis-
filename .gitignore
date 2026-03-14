@@ -1,0 +1,14 @@
+#Data files that are too large for GitHub
+data/*.csv
+*.csv
+
+#Python cache files- don't need these on GitHub
+__pycache__/
+*.pyc
+
+#IDE Settings
+.idea/
+.vscode/
+
+#Results folder
+results/
