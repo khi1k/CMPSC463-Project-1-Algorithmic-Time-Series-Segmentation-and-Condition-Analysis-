@@ -12,9 +12,9 @@ def getRul_categories(df):
     rul_vals = df['rul']
 
     #calulating the quantiles
-    Q10 = np.percentile(rul_values, 10) #lower quantile
-    Q50 = np.percentile(rul_values, 50) #median quantile
-    Q90 = np.percentile(rul_values, 90) #upper quantile
+    Q10 = np.percentile(rul_vals, 10) #lower quantile
+    Q50 = np.percentile(rul_vals, 50) #median quantile
+    Q90 = np.percentile(rul_vals, 90) #upper quantile
     print(f"RUL Quantiles - Q10: {Q10:.2f}, Q50: {Q50:.2f}, Q90: {Q90:.2f}")
 
     # 0=very low, 1=low, 2 = high, 3= very high
