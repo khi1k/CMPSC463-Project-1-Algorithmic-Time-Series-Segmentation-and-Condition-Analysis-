@@ -5,10 +5,21 @@ data/*.csv
 #Python cache files- don't need these on GitHub
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.so
 
 #IDE Settings
 .idea/
 .vscode/
+*.swp
+*.swo
+
+#Virtual environment
+venv/
+env/
+ENV/
+.venv
 
 #Results folder
 results/
