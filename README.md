@@ -3,6 +3,10 @@
 This project I have worked on will utilize multiple algorithm techniques, such as: 
 divide and conquer, clustering, and kadane's algorithm, in order to analyze the data of water pumps. This data will be used to relate the findings from it towards RUL categories related to machine health. This project will not use machine learning libraries.
 
+## Report
+The full project report is available in the [`report/`](report/) folder:
+- [`CMPSC463_Project1_Report.docx`](report/CMPSC463_Project1_Report.docx)
+
 ## Dataset - 
 - **Source**: [Water Pump RUL - Predictive Maintenance (Kaggle)](https://www.kaggle.com/datasets/anseldsouza/water-pump-rul-predictive-maintenance)
 - **Rows**: 166,441, using the first 10,000 for analysis in this project
@@ -34,7 +38,7 @@ pip install -r requirements.txt (in terminal) --> run download_dataset.py
    - Clusters 10,000 points into 4 groups
    - Output will be cluster summaries w/majority RUL categories
  - Task 3: Kadanes Algorithm
-   - FInds the max derivation intervals of all 52 sensors within the dataset
+   - Finds the max deviation intervals of all 52 sensors within the dataset
    - will output the early warning indicators, example visualization graphs, and CSV results
 
 
